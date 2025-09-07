@@ -1,0 +1,37 @@
+# Unity関連
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+UserSettings/
+MemoryCaptures/
+Packages/
+ProjectSettings/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+
+# OS系
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# VRChat / Udon / VRCSDK関連
+VRCSDK/
+VRCSDK2/
+VRCSDK3/
+[Vv]rcSettings.asset
+VRCWorlds/
+VRCScenes/
+.gitkeep
