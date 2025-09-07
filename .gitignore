@@ -34,4 +34,20 @@ VRCSDK3/
 [Vv]rcSettings.asset
 VRCWorlds/
 VRCScenes/
+UdonSharp/
+SerializedUdonPrograms/
+XR/
+Scenes/
+HoshinoLabs/
+TextMesh Pro/
 .gitkeep
+UdonSharp.meta
+SerializedUdonPrograms.meta
+XR.meta
+Scenes.meta
+HoshinoLabs.meta
+TextMesh Pro.meta
+
+#RacoonStudio
+Assets/RacoonStudio/LiveSyncSystem/*.ttf
+Assets/RacoonStudio/LiveSyncSystem/*.asset
