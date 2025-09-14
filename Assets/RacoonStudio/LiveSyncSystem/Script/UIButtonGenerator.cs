@@ -5,7 +5,15 @@ using VRC.SDKBase;
 
 public class UIButtonGenerator : MonoBehaviour
 {
-    [System.Serializable]
+    public GameObject defaultLightObject;
+    public float bufferTime = 10;
+    public int delayTime = 600;
+    public float audioVolume = 0.2f;
+    public float syncFrequency = 10f;
+    public float syncThreshold = 0.1f;
+    public float fadeTime = 0.5f;
+
+    [System.Serializable]    
     public class ButtonData
     {
         public string buttonText;

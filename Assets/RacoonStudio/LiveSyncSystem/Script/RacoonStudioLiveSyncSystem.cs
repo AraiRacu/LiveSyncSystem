@@ -20,16 +20,16 @@ public class RacoonStudioLiveSyncSystem : UdonSharpBehaviour
     [SerializeField] VideoCore core;
     [SerializeField] Slider _progressSlider;
     [SerializeField] private Transform directionParent;
-    [SerializeField] public GameObject[] lightDirection;
-    [SerializeField] public Boolean[] isFadeJack;
-    [SerializeField] private GameObject defaultLightObject;
+    [HideInInspector] public GameObject[] lightDirection;
+    [HideInInspector] public Boolean[] isFadeJack;
+    [HideInInspector] public GameObject defaultLightObject;
     [SerializeField] private GameObject fadePPSObject;
-    [SerializeField] public float bufferTime = 10;
-    [SerializeField] private int delayTime = 600;
-    [SerializeField] private float audioVolume = 0.2f;
-    [SerializeField] private float syncFrequency = 10f;
-    [SerializeField] private float syncThreshold = 0.1f;
-    [SerializeField] private float fadeTime = 0.5f;
+    [HideInInspector] public float bufferTime = 10;
+    [HideInInspector] public int delayTime = 600;
+    [HideInInspector] public float audioVolume = 0.2f;
+    [HideInInspector] public float syncFrequency = 10f;
+    [HideInInspector] public float syncThreshold = 0.1f;
+    [HideInInspector] public float fadeTime = 0.5f;
 
     [UdonSynced, FieldChangeCallback(nameof(SyncStartUTCTime))] private string _syncStartUTCTime = "";
     [UdonSynced, FieldChangeCallback(nameof(ProgressRate))] private float _progressRate = 0;

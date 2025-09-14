@@ -22,8 +22,8 @@ public class PlayListController : UdonSharpBehaviour
     [SerializeField] private VideoCore core = null;
     [SerializeField] private RacoonStudioLiveSyncSystem liveSyncSystem = null;
 
-    [SerializeField] public Button[] _trackButtons = null;
-    [SerializeField] public VRCUrl[] _trackURLs = null;
+    [HideInInspector] public Button[] _trackButtons = null;
+    [HideInInspector] public VRCUrl[] _trackURLs = null;
 
     private int _contentLength = 0;
     [UdonSynced, FieldChangeCallback(nameof(Track))] private int _track = -1;

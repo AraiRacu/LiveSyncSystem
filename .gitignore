@@ -21,6 +21,8 @@ ProjectSettings/
 *.svd
 *.pdb
 *.mdb
+*.vsidx
+fileList.bin
 
 # OS系
 .DS_Store
@@ -47,6 +49,7 @@ XR.meta
 Scenes.meta
 HoshinoLabs.meta
 TextMesh Pro.meta
+*.unitypackage
 
 #RacoonStudio
 Assets/RacoonStudio/LiveSyncSystem/*.ttf

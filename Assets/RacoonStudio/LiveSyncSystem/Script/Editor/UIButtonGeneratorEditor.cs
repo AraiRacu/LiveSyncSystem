@@ -76,5 +76,14 @@ public class UIButtonGeneratorEditor : Editor
             PrefabUtility.RecordPrefabInstancePropertyModifications(generator.syncSystem);
         }
         Debug.Log("ボタン生成完了！");
+
+        generator.syncSystem.defaultLightObject = generator.defaultLightObject;
+        generator.syncSystem.bufferTime = generator.bufferTime;
+        generator.syncSystem.delayTime = generator.delayTime;
+        generator.syncSystem.audioVolume = generator.audioVolume;
+        generator.syncSystem.syncFrequency = generator.syncFrequency;
+        generator.syncSystem.syncThreshold = generator.syncThreshold;
+        generator.syncSystem.fadeTime = generator.fadeTime;
+        Debug.Log("同期情報設定完了！");
     }
 }
