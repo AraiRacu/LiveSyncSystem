@@ -20,7 +20,7 @@ iwaSync3をベースとした、ダンスライブ向け同期システムです
 4. Assets/RacoonStudio/LiveSyncSystem以下のSceneの展開または、シーンにPrefabを配置する
 5. RacoonStudioLiveSystem>StageColliderのPosition・Scaleをライブステージ上になるように調整する
 6. RacoonStudioLiveSystem>iwasyncSet>iwaSync3-Speakerをライブステージ上の音源の位置に設置する
-7. RacoonStudioLiveSystem>iwasyncSet>PlayList及びRacoonStudioLiveSystem>iwasyncSet>iwaSync3-Controllerをスタッフルーム等、操作する場所に設置する
+7. RacoonStudioLiveSystem>iwasyncSet>PlayList及びRacoonStudioLiveSystem>iwasyncSet>iwaSync3-Controller、RacoonStudioLiveSystem>iwasyncSet>iwaSync3-iwaSync3をスタッフルーム等、操作する場所に設置する
 
 ## 使い方
 1. 演出オブジェクトの作成と設置
