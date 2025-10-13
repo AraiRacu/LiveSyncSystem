@@ -3,9 +3,10 @@
   "displayName": "LiveSyncSystem",
   "version": "1.0.0",
   "unity": "2022.3",
-  "description": "This is my VCC compatible VRC package.",
   "author": {
     "name": "AraiRacu",
     "url": "https://github.com/AraiRacu"
-  }  
+  },
+  "description": "This is my VCC compatible VRC package.",
+  "url": "https://github.com/AraiRacu/LiveSyncSystem.git"
 }
