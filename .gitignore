@@ -7,7 +7,6 @@
 [Ll]ogs/
 UserSettings/
 MemoryCaptures/
-Packages/
 ProjectSettings/
 *.csproj
 *.unityproj
@@ -52,5 +51,7 @@ TextMesh Pro.meta
 *.unitypackage
 
 #RacoonStudio
-Assets/RacoonStudio/LiveSyncSystem/*.ttf
-Assets/RacoonStudio/LiveSyncSystem/*.asset
+
+Packages/com.vrchat.*/
+Packages/*.json
+Packages/.gitignore

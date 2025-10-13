@@ -1,5 +1,4 @@
 ﻿
-using Cysharp.Threading.Tasks;
 using HoshinoLabs.IwaSync3;
 using HoshinoLabs.IwaSync3.Udon;
 using System;

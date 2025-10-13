@@ -1,0 +1,19 @@
+{
+    "name": "AraiRacu.LiveSyscSystem.Runtime",
+    "rootNamespace": "",
+    "references": [
+        "GUID:99835874ee819da44948776e0df4ff1d",
+        "GUID:f06555f75b070af458a003d92f9efb00",
+        "GUID:62a6844594b186347bf34f13906731c2",
+        "GUID:2ea38240a9fc74b40b7bc09442591120"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
