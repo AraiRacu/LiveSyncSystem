@@ -1,0 +1,13 @@
+{
+    "schema": "1.0",
+    "name": "LiveSyncSystem",
+    "url": "https://github.com/AraiRacu/LiveSyncSystem",
+    "packages": [
+        {
+            "name": "com.arairacu.livesyncsystem",
+            "version": "1.1.0",
+            "displayName": "LiveSyncSystem",
+            "description": "This is my VCC compatible VRC package."
+        }
+    ]
+}
